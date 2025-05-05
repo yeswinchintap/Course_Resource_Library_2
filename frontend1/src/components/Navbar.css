@@ -1,0 +1,76 @@
+.navbar {
+  background-color: #FFA500; /* Beautiful orange */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 40px;
+  height: 70px;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo span {
+  margin-left: 10px;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+  color: #ffedcc; /* Light hover effect */
+}
+
+.logout-button {
+  margin-left: 20px;
+  background-color: white;
+  color: #FFA500;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #ffedcc;
+}
+
+.home-button,
+.logout-button {
+  background: white;
+  color: #ffa500;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 14px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.home-button:hover,
+.logout-button:hover {
+  background-color: #fff2e0;
+}

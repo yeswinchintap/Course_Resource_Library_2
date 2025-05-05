@@ -1,0 +1,56 @@
+.student-content-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.08);
+  }
+  
+  .progress-bar {
+    height: 28px;
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin: 20px 0;
+    overflow: hidden;
+  }
+  
+  .progress-fill {
+    background-color: #4caf50;
+    height: 100%;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    line-height: 28px;
+  }
+  
+  .content-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .content-item {
+    margin-bottom: 12px;
+    font-size: 16px;
+  }
+  
+  .content-item input {
+    margin-right: 10px;
+  }
+  
+  .start-quiz-button {
+    background-color: #ffa500;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .start-quiz-button:hover {
+    background-color: #e69500;
+  }
+  

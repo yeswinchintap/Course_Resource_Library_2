@@ -1,0 +1,141 @@
+.view-courses-container {
+    padding: 40px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+    text-align: center;
+  }
+  
+  .view-courses-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .courses-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .course-card {
+    background-color: white;
+    width: 300px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .course-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .course-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
+  
+  .view-students-button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #ffa500;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .view-students-button:hover {
+    background-color: #e59400;
+  }
+  
+  .admin-course-actions {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .edit-course-button,
+  .delete-course-button {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .edit-course-button {
+    background-color: #1e90ff;
+  }
+  
+  .edit-course-button:hover {
+    background-color: #0077cc;
+  }
+  
+  .delete-course-button {
+    background-color: #e74c3c;
+  }
+  
+  .delete-course-button:hover {
+    background-color: #c0392b;
+  }
+
+  .course-actions-top,
+.course-actions-bottom {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.orange-button {
+  background-color: #ffa500;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.orange-button:hover {
+  background-color: #e69500;
+}
+
+.edit-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.edit-button:hover {
+  background-color: #0062cc;
+}
+
+.delete-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #c0392b;
+}
+
+  
